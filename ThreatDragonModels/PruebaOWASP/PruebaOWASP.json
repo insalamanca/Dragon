@@ -1155,7 +1155,7 @@
                   "name": "block"
                 },
                 "sourceMarker": {
-                  "name": ""
+                  "name": "block"
                 },
                 "strokeDasharray": null
               }
@@ -1166,20 +1166,20 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "CRUD",
+              "name": "Request",
               "description": "CRUD de la información",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
-              "isBidirectional": false,
+              "isBidirectional": true,
               "isEncrypted": false,
               "isPublicNetwork": false,
-              "protocol": "",
+              "protocol": "HTTP",
               "threats": []
             },
             "labels": [
-              "CRUD"
+              "Request"
             ],
             "id": "d6284fec-00b0-42fe-ae10-e23a8d7df51b",
             "source": {
@@ -1190,7 +1190,16 @@
               "cell": "b35921ed-4d91-4e85-a2d4-5ef7acefee22",
               "port": "ab1c0f79-066e-4d6b-b9ba-144077945c49"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 810,
+                "y": 220
+              },
+              {
+                "x": 910,
+                "y": 260
+              }
+            ]
           }
         ]
       }
