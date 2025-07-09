@@ -19,8 +19,8 @@
         "cells": [
           {
             "position": {
-              "x": 500,
-              "y": 390
+              "x": 595,
+              "y": 330
             },
             "size": {
               "width": 90,
@@ -1095,20 +1095,10 @@
             },
             "vertices": [
               {
-                "x": 810,
-                "y": 220
+                "x": 860,
+                "y": 410
               }
-            ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            }
+            ]
           },
           {
             "shape": "flow",
@@ -1304,14 +1294,20 @@
             },
             "vertices": [
               {
-                "x": 450,
-                "y": 470
-              },
-              {
                 "x": 380,
                 "y": 450
               }
-            ]
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           }
         ]
       }
